@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "example_package_timbk"
+version = "0.2"
+description = "test description"
+readme = "README.md"
+license = "GPL-3.0-only"
+license-files = ["LICENSE"]
+keywords = ["test"]
+authors = [{name="Tim Kuhlbusch", email="kuhlbusch@physik.rwth-aachen.de"}]
+
+[project.urls]
+Repository = "https://github.com/timbk/example_package_timbk"
